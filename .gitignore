@@ -1,0 +1,18 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Sensitive credentials & sessions
+credentials.json
+token.json
+toyhouse_session.json
+
+# Downloaded/generated data
+ToyhousemasterData.csv
+sheet.csv
+orders_raw.html
+invoices/
+
+# Temp files
+.~lock.*
