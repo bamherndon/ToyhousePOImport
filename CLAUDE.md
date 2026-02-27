@@ -3,7 +3,7 @@
 ## Download Toyhouse Master Data
 When asked to download toyhouse master data, run:
 ```bash
-cd /home/heman/ToyhousePOImport && venv/bin/python download_sheet.py
+venv/bin/python download_sheet.py
 ```
 
 - Script: `download_sheet.py`
@@ -15,7 +15,7 @@ cd /home/heman/ToyhousePOImport && venv/bin/python download_sheet.py
 ## List Toyhouse Orders
 When asked to list toyhouse orders, run:
 ```bash
-cd /home/heman/ToyhousePOImport && venv/bin/python list_orders.py
+venv/bin/python list_orders.py
 ```
 
 - Script: `list_orders.py`
@@ -26,12 +26,12 @@ cd /home/heman/ToyhousePOImport && venv/bin/python list_orders.py
 ## Download Toyhouse Invoice
 When asked to download a toyhouse invoice, run:
 ```bash
-cd /home/heman/ToyhousePOImport && venv/bin/python download_invoice.py <order_number>
+venv/bin/python download_invoice.py <order_number>
 ```
 
 Example:
 ```bash
-cd /home/heman/ToyhousePOImport && venv/bin/python download_invoice.py TH19087
+venv/bin/python download_invoice.py TH19087
 ```
 
 - Script: `download_invoice.py`
@@ -43,13 +43,13 @@ cd /home/heman/ToyhousePOImport && venv/bin/python download_invoice.py TH19087
 ## Generate Purchase Order
 When asked to generate a purchase order, run:
 ```bash
-cd /home/heman/ToyhousePOImport && venv/bin/python generate_po.py <order_number> [location]
+venv/bin/python generate_po.py <order_number> [location]
 ```
 
 Example:
 ```bash
-cd /home/heman/ToyhousePOImport && venv/bin/python generate_po.py TH19087
-cd /home/heman/ToyhousePOImport && venv/bin/python generate_po.py TH19087 "My Store Name"
+venv/bin/python generate_po.py TH19087
+venv/bin/python generate_po.py TH19087 "My Store Name"
 ```
 
 - Script: `generate_po.py`
